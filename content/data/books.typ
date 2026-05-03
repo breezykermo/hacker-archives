@@ -21,6 +21,7 @@
   ),
   (
     name: "Cyber Crimes",
+    url: "https://www.amazon.com/Cyber-Crimes-Crime-Justice-Punishment/dp/0791042529",
     authors: "Gina De Angelis",
   ),
   (
