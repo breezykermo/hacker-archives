@@ -80,6 +80,7 @@
     name: "Mr. Robot Decoded",
     year: 2015,
     director: "USA Network",
+    url: "https://www.imdb.com/title/tt4158110/",
   ),
   (
     name: "Terms and Conditions May Apply",
