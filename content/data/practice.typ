@@ -2,6 +2,7 @@
   (
     name: "Revealing Individual and Collective Pasts: Visualizations of Online Social Archives",
     year: 2005,
+    url: "https://dspace.mit.edu/handle/1721.1/33880",
     description: [PhD thesis by Fernanda B. Viégas (MIT). Includes discussion of chat rooms and social visualization.],
   ),
   (
