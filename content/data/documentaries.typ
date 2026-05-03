@@ -9,6 +9,7 @@
     name: "Hackers: Wizards of the Electronic Age",
     year: 1984,
     director: "Fabrice Florin",
+    url: "https://www.imdb.com/title/tt1191116/",
   ),
   (
     name: "Revolution OS",
