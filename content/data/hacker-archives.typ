@@ -63,6 +63,7 @@
   ),
   (
     name: "Where Wizards Stay Up Late",
+    url: "https://www.goodreads.com/book/show/281818.Where_Wizards_Stay_Up_Late",
     description: [Book by Katie Hafner and Matthew Lyon on the origins of the Internet.],
   ),
   (
