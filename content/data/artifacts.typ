@@ -6,6 +6,7 @@
   ),
   (
     name: "Floodnet",
+    url: "https://sites.rhizome.org/anthology/floodnet.html",
     description: [Early net.art project by the Electronic Disturbance Theater, using a virtual sit-in tool.],
   ),
   (
