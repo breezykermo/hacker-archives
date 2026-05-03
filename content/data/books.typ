@@ -1,6 +1,7 @@
 #let books = (
   (
     name: "Cult of The Dead Cow",
+    url: "https://www.goodreads.com/book/show/42283862-cult-of-the-dead-cow",
     authors: "Joseph Menn",
   ),
   (
