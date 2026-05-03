@@ -45,6 +45,7 @@
   (
     name: "Environmental Impact and Digital Preservation",
     year: 2024,
+    url: "https://www.dpconline.org/digipres/discover-good-practice/environmentally-sustainable-digital-preservation",
   ),
   (
     name: "Information Maintenance as a Practice of Care",
