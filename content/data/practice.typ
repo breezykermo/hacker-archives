@@ -86,6 +86,7 @@
   (
     name: "AIMS Born-Digital Collections: An Inter-Institutional Model for Stewardship",
     year: 2012,
+    url: "http://www2.lib.virginia.edu/aims/",
     description: [Overview of basic archival activities and the four functions of stewardship; a model of federated stewardship.],
   ),
   (
