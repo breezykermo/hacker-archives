@@ -1,0 +1,276 @@
+/* ============================================
+   CSS Variables
+   ============================================ */
+:root {
+  --background-color: #fdfdfd;
+  --text-color: #1a1a1a;
+  --link-color: #1a1a1a;
+  --blockquote-border: #e6e6e6;
+  --blockquote-text: #606060;
+  --pill-bg: #f0f0f0;
+  --pill-active-bg: #1a1a1a;
+  --pill-active-text: #ffffff;
+  --pill-border: #d0d0d0;
+  --section-heading-color: #666666;
+  --muted-meta: #888888;
+}
+
+/* ============================================
+   Base Layout
+   ============================================ */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 36em;
+}
+
+/* ============================================
+   Navigation
+   ============================================ */
+.site-nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.site-nav + hr {
+  margin-top: 0;
+  height: 2px;
+}
+
+.site-title {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.1em;
+}
+
+.nav-link {
+  color: var(--muted-meta);
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.nav-link:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+/* ============================================
+   Typography
+   ============================================ */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+  font-weight: normal;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* ============================================
+   Links
+   ============================================ */
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* ============================================
+   Lists
+   ============================================ */
+ul, ol {
+  padding-left: 2em;
+  margin: 1em 0;
+}
+
+/* ============================================
+   Media
+   ============================================ */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em 0;
+}
+
+/* ============================================
+   Code
+   ============================================ */
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* ============================================
+   Blockquotes
+   ============================================ */
+blockquote {
+  margin: 1.5em 0;
+  padding-left: 1em;
+  border-left: 2px solid var(--blockquote-border);
+  color: var(--blockquote-text);
+  font-style: italic;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--blockquote-border);
+  border: none;
+}
+
+/* ============================================
+   Endnotes
+   ============================================ */
+section[role="doc-endnotes"] {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--blockquote-border);
+}
+
+section[role="doc-endnotes"] ol li a[role="doc-backlink"] {
+  padding-right: 0.2em;
+}
+
+/* ============================================
+   Search
+   ============================================ */
+.search-container {
+  margin: 1.5em 0 0.75em 0;
+}
+
+#search {
+  width: 100%;
+  padding: 0.75em 1em;
+  font-size: 1em;
+  font-family: inherit;
+  border: 1px solid var(--pill-border);
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+#search:focus {
+  border-color: var(--text-color);
+}
+
+/* ============================================
+   Filter Pills
+   ============================================ */
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0.75em 0 0.5em 0;
+}
+
+.pill {
+  padding: 0.35em 0.85em;
+  font-size: 0.85em;
+  font-family: inherit;
+  border: 1px solid var(--pill-border);
+  border-radius: 999px;
+  background: var(--pill-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.pill:hover {
+  border-color: var(--text-color);
+}
+
+.pill.active {
+  background: var(--pill-active-bg);
+  color: var(--pill-active-text);
+  border-color: var(--pill-active-bg);
+}
+
+/* ============================================
+   Results Count
+   ============================================ */
+#results-count {
+  color: var(--muted-meta);
+  font-size: 0.85em;
+  margin-bottom: 1em;
+}
+
+/* ============================================
+   Resource Items
+   ============================================ */
+.resource-item {
+  padding: 0.6em 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.resource-name {
+  font-size: 1em;
+}
+
+.resource-name a {
+  text-decoration: none;
+}
+
+.resource-name a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.resource-meta {
+  display: block;
+  color: var(--muted-meta);
+  font-size: 0.88em;
+  margin-top: 0.15em;
+}
+
+.resource-desc {
+  margin: 0.25em 0 0 0;
+  font-size: 0.92em;
+  color: #555555;
+  line-height: 1.4;
+}
+
+/* ============================================
+   Archive Grid Section Headings
+   ============================================ */
+#archive-grid h2 {
+  color: var(--section-heading-color);
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--pill-border);
+  padding-bottom: 0.25em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+    font-size: 0.9em;
+  }
+
+  .filter-pills {
+    gap: 0.35em;
+  }
+
+  .pill {
+    font-size: 0.78em;
+    padding: 0.3em 0.65em;
+  }
+}
