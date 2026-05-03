@@ -36,6 +36,7 @@
   ),
   (
     name: "Hackers: Crime in the Digital Sublime",
+    url: "https://www.routledge.com/Hackers-Crime-and-the-Digital-Sublime/Taylor/p/book/9780415180726",
     authors: "Paul A. Taylor",
   ),
 )
