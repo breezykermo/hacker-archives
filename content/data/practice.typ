@@ -39,6 +39,7 @@
   (
     name: "Toward Environmentally Sustainable Digital Preservation",
     year: 2019,
+    url: "https://www.jstor.org/stable/48659833",
     description: [Importance of appraisal; sustainability issues in digital archives stewardship.],
   ),
   (
