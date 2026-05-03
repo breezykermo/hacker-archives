@@ -16,6 +16,7 @@
   ),
   (
     name: "LOTRD Simulation",
+    url: "https://en.wikipedia.org/wiki/Legend_of_the_Red_Dragon",
     description: [Simulation preserving a particular digital artifact.],
   ),
   (
