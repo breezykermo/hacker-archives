@@ -96,6 +96,7 @@
   ),
   (
     name: "Conferences and Events",
+    url: "https://www2.archivists.org/events",
     description: [Relevant conferences and events in archival practice.],
   ),
 )
