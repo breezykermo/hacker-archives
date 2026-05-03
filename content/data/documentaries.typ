@@ -74,6 +74,7 @@
     name: "Kim Dotcom: The Inside Story",
     year: 2017,
     director: "Annie Goldson",
+    url: "https://www.imdb.com/title/tt3640710/",
   ),
   (
     name: "Mr. Robot Decoded",
