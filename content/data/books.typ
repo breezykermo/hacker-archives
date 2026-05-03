@@ -16,6 +16,7 @@
   ),
   (
     name: "Masters of Deception: The Gang that Ruled Cyberspace",
+    url: "https://www.goodreads.com/book/show/984598.Masters_of_Deception",
     authors: "Michelle Slatalla, Joshua Quittner",
   ),
   (
