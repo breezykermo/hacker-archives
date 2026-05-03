@@ -50,6 +50,7 @@
   (
     name: "Information Maintenance as a Practice of Care",
     year: 2021,
+    url: "https://themaintainers.org/wp-content/uploads/2021/05/Information-Maintenance-as-a-Practice-of-Care.pdf",
     description: [Archivists as maintainers and care workers.],
   ),
   (
