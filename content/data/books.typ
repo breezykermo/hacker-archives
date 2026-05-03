@@ -6,6 +6,7 @@
   ),
   (
     name: "Space Rogue: How the Hackers Known as L0pht Changed the World",
+    url: "https://www.goodreads.com/en/book/show/90400419-space-rogue",
     authors: "Cris Thomas",
   ),
   (
