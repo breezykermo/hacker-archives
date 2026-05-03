@@ -14,7 +14,9 @@ bd sync               # Sync with git
 
 ## Landing the Plane (Session Completion)
 
-**When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
+**When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `jj git push` succeeds.
+
+This repo uses **jj exclusively** — NEVER use raw `git` commands.
 
 **MANDATORY WORKFLOW:**
 
@@ -23,17 +25,17 @@ bd sync               # Sync with git
 3. **Update issue status** - Close finished work, update in-progress items
 4. **PUSH TO REMOTE** - This is MANDATORY:
    ```bash
-   git pull --rebase
-   bd sync
-   git push
-   git status  # MUST show "up to date with origin"
+   jj git pull --rebase
+   jj git push
+   jj status  # MUST show clean working copy
    ```
-5. **Clean up** - Clear stashes, prune remote branches
+5. **Clean up** - Abandon abandoned commits, prune remote branches
 6. **Verify** - All changes committed AND pushed
 7. **Hand off** - Provide context for next session
 
 **CRITICAL RULES:**
-- Work is NOT complete until `git push` succeeds
+- This repo uses **jj exclusively** — NEVER use raw `git` commands (`git push`, `git pull`, `git add`, `git commit`, etc.)
+- Work is NOT complete until `jj git push` succeeds
 - NEVER stop before pushing - that leaves work stranded locally
 - NEVER say "ready to push when you are" - YOU must push
 - If push fails, resolve and retry until it succeeds

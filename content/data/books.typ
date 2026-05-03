@@ -31,6 +31,7 @@
   ),
   (
     name: "Cyberpunk: Outlaws and Hackers on the Computer Frontier",
+    url: "https://www.goodreads.com/book/show/369966.Cyberpunk",
     authors: "Katie Hafner, John Markoff",
   ),
   (
