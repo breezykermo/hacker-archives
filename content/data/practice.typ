@@ -55,6 +55,7 @@
   ),
   (
     name: "Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files",
+    url: "https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759",
     description: [By Elvia Arroyo-Ramirez. How character encoding complicates inclusivity.],
   ),
   (
